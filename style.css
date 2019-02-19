@@ -14,9 +14,43 @@ body {
   margin: 5px 0;
 }
 
+/* Style the top navigation bar */
+.navbar {
+    background-color: gold;
+    display: flex;
+    padding: 10px;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    color: saddlebrown;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+#nav {
+  display: flex;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    color: #5d3111;
+}
+
+#donate {
+  color: white;
+  background-color: saddlebrown;
+}
+
+#donate:hover {
+    color: black;
+}
+
 #back-img {
-  margin: 140px auto 60px auto;
-  padding: 0 120px;
+  max-width: 100%;
+  margin: 100px auto 60px auto;
 }
 
 
@@ -132,16 +166,9 @@ h6 {
   font-weight: bold;
 }
 
-/* Style the top navigation bar */
-.navbar {
-    background-color: gold;
-    display: flex;
-    padding: 10px;
-}
-
-#donate {
+footer a:hover {
   color: white;
-  background-color: saddlebrown;
+  text-decoration: none;
 }
 
 #video-div {
@@ -168,34 +195,6 @@ footer {
 
 footer a {
   color: yellow;
-  text-decoration: none;
-}
-
-/* Style the navigation bar links */
-.navbar a {
-    color: saddlebrown;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    font-size: 18px;
-}
-
-#nav {
-  display: flex;
-}
-
-/* Change color on hover */
-.navbar a:hover {
-    background-color: gold;
-    color: black;
-}
-
-#donate:hover {
-    color: black;
-}
-
-footer a:hover {
-  color: white;
   text-decoration: none;
 }
 
